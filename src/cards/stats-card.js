@@ -53,7 +53,7 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
     rank,
   } = stats;
   const {
-    hide = [],
+    hide = [totalStars],
     show_icons = false,
     hide_title = false,
     hide_border = false,
